@@ -1,0 +1,37 @@
+PyCharm, GitHub, Git - настройка
+Создание репозитория
+https://youtu.be/aY8zPCMDc64
+Клонирование
+https://youtu.be/cWRP6rWDgyc
+Share project
+https://youtu.be/1PRuPQ-ESoY
+Pull-request
+https://youtu.be/ubnDtAbi7no
+https://youtu.be/DWGxuNUH658
+
+
+Документация
+https://www.programiz.com
+https://docs.python.org/3/index.html
+Визуализатор
+http://www.pythontutor.com/visualize.html#mode=edit
+Весь Python кратко
+https://learnxinyminutes.com/docs/ru-ru/python-ru/
+Книги
+https://codernet.ru/books/python/izuchaem_python_5-e_izd_tom_1Документация
+https://www.programiz.com
+https://docs.python.org/3/index.html
+Визуализатор
+http://www.pythontutor.com/visualize.html#mode=edit
+Весь Python кратко
+https://learnxinyminutes.com/docs/ru-ru/python-ru/
+Книги
+https://codernet.ru/books/python/izuchaem_python_5-e_izd_tom_1
+Горячие клавиши
+Windows and Linux
+https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf
+MacOS
+https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard_mac.pdf
+http://dev-tricks.ru/2016/10/20/goryachie-klavishi-pycharm/
+Игра Git
+https://learngitbranching.js.org/?locale=ru_RU
