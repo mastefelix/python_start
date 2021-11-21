@@ -1,7 +1,7 @@
 def my_func(x, y):
     for i in range(1, abs(y)):
         x *= x
-    return 1 / x
+    return round(1 / x, 6)
 
 
 print(my_func(float(input('Введите действительное положительное число x: ')),

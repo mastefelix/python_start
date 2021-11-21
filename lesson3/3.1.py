@@ -1,9 +1,11 @@
-def my_func():
-    a, b = int(input('Ведите первое число: ')), int(input('Введите второе число: '))
+def my_func(a, b):
     try:
-        return a / b
+        a, b = int(a), int(b)
+        return round(a / b, 4)
+    except ValueError:
+        return 'Введите числа!'
     except ZeroDivisionError:
         return 'На ноль делить нельзя!'
 
 
-print(my_func())
+print(my_func((input('Ведите первое число: ')), input('Введите второе число: ')))
