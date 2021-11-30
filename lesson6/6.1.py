@@ -6,13 +6,13 @@ class TrafficLight:
 
     def running(self):
         while True:
-            print(self.__color[0])
+            print(f'\033[31m{self.__color[0]}')
             sleep(7)
-            print(self.__color[1])
+            print(f'\033[33m{self.__color[1]}')
             sleep(2)
-            print(self.__color[2])
+            print(f'\033[32m{self.__color[2]}')
             sleep(10)
-            print(self.__color[1])
+            print(f'\033[33m{self.__color[1]}')
             sleep(2)
 
 
