@@ -3,8 +3,7 @@ class Matrix:
         self.lists = lists
 
     def __str__(self):
-        for i in self.lists:
-            print(*i)
+        return '\n'.join('\t'.join([str(j) for j in i]) for i in self.lists)
 
     def __add__(self, other):
         try:
@@ -24,8 +23,8 @@ matrix_2 = [[9, 8, 7],
 
 m_1 = Matrix(matrix_1)
 m_2 = Matrix(matrix_2)
-m_1.__str__()
-print(6 * '-')
-m_2.__str__()
-print(6 * '-')
-(m_1 + m_2).__str__()
+print(m_1)
+print(10 * '-')
+print(m_2)
+print(10 * '-')
+print(m_1 + m_2)
