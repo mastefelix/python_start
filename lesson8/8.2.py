@@ -11,3 +11,5 @@ try:
         raise MyOwnErr('You cannot divide by zero!')
 except (ValueError, MyOwnErr) as err:
     print(err)
+else:
+    print(a / b)
