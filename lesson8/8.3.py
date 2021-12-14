@@ -8,9 +8,11 @@ my_list = []
 
 while a != 'stop':
     try:
+        if not a.isdigit():
+            raise MyOwnErr('Only numbers!')
         a = int(a)
-    except ValueError:
-        print('Only numbers!')
+    except MyOwnErr as err:
+        print(err)
     else:
         my_list.append(a)
     a = input('For continue enter number, for exit enter "stop": ')
