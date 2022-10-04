@@ -2,10 +2,9 @@ profit = int(input('Введите сумму выручки: '))
 cost = int(input('Введите сумму издержек: '))
 
 if profit > cost:
-    rent = (profit - cost) / profit
-    print('Фирма работает в прибыль. \n'
-          'Рентабльность выручки = ', rent)
+    print(f'''Фирма работает в прибыль.
+          Рентабельность выручки = {(profit - cost) / profit:.5}''')
     staff = int(input('Введите количество сотрудников фирмы: '))
-    print('Прибыль в рассчете на одного сотрудника = ', (profit - cost) / staff)
+    print(f'Прибыль в расчете на одного сотрудника = {(profit - cost) / staff:.5}')
 else:
     print('Фирма работает в убыток')
